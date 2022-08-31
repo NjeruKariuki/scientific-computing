@@ -5,6 +5,7 @@ import random
 '''
 3 variables, x,s, and m
 
+
 if x tends from 0 to 10, by .5, put all x into list
 '''
 all_x = [x/10 for x in range(0, 100, 5)]
@@ -25,5 +26,3 @@ results = [bellGausianFxn(x) for x in all_x]
 #plotting the results
 plt.plot(all_x, results)
 plt.show()
-
-
